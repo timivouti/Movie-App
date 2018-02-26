@@ -1,0 +1,92 @@
+@media only screen and (min-width: 1151px) {
+  #dashboardContainer {
+    display:block !important;
+    transition: 1s;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .movie {
+    width:100%;
+    margin-left:0px;
+  }
+
+  .backButton {
+    width:100%;
+  }
+
+  #dashboardContainer {
+    display:block;
+    transition: 1s;
+    height:1%;
+  }
+
+  .search {
+    width:100%;
+    margin-right:0px;
+  }
+
+  .dashboard {
+    width:100%;
+    max-height:1087px;
+  }
+
+  .header {
+    width:100%;
+    margin-right:0px;
+  }
+  .searchBox {
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+    padding-left:36px;
+  }
+  .content {
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  h3 {
+    font-size: 0.9em;
+  }
+  h4 {
+    font-size:0.7em;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .moviePoster {
+    height:400px;
+  }
+  .buyTickets {
+    margin-right:50px;
+  }
+  .watchTrailer {
+    margin-left:0px;
+    margin-top:5px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .moviePoster {
+    height:300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .moviePoster {
+    height:250px;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .moviePoster {
+    height:200px;
+  }
+}
